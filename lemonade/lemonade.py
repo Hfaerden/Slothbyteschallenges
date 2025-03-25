@@ -1,3 +1,5 @@
+bills = [5, 5, 5, 20]
+
 cashmoney = {
     5: 0,
     10: 0,
@@ -13,4 +15,4 @@ def lemonade(list):
     return(True)
 
 
-print(lemonade([5, 5, 5, 20]))
+print(lemonade(bills))
